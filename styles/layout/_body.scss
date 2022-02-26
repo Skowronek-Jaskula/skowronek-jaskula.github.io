@@ -1,0 +1,11 @@
+@use '../abstracts/variables' as var;
+
+body {
+  box-sizing: border-box;
+  font-family: Ubuntu, sans-serif;
+  // stylelint-disable unit-disallowed-list
+  font-size: 16px;
+  // stylelint-enable unit-disallowed-list
+  margin: 0 auto;
+  width: var.$body-width;
+}

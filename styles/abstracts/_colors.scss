@@ -1,0 +1,84 @@
+@use "sass:map";
+
+$colors: (
+  "1": (
+    "1": #e557ad,
+    "2": #d13a8c,
+    "3": #ba2980,
+    "4": #a12980,
+    "5": #811b6f,
+  ),
+  "2": (
+    "1": #ffda80,
+    "2": #ffd068,
+    "3": #ffb24a,
+    "4": #ff9c29,
+    "5": #ff8e12,
+  ),
+  "3": (
+    "1": #ff5770,
+    "2": #ff455e,
+    "3": #ff304d,
+    "4": #e30021,
+    "5": #a6001a,
+  ),
+  "4": (
+    "1": #9e4780,
+    "2": #802b73,
+    "3": #750d5c,
+    "4": #590a42,
+    "5": #42142e,
+  ),
+);
+
+// color palette colors:
+$violets: (
+  "1": #e557ad,
+  "2": #d13a8c,
+  "3": #ba2980,
+  "4": #a12980,
+  "5": #811b6f,
+);
+$yellows: (
+  "1": #ffda80,
+  "2": #ffd068,
+  "3": #ffb24a,
+  "4": #ff9c29,
+  "5": #ff8e12,
+);
+$reds: (
+  "1": #ff5770,
+  "2": #ff455e,
+  "3": #ff304d,
+  "4": #e30021,
+  "5": #a6001a,
+);
+$velvets: (
+  "1": #9e4780,
+  "2": #802b73,
+  "3": #750d5c,
+  "4": #590a42,
+  "5": #42142e,
+);
+$white: #fff;
+
+/// @type Color
+$main: map.get($violets, "5");
+
+/// @type Color
+$highlight: map.get($velvets, "5");
+
+/// @type Color
+$focus: map.get($violets, "1");
+
+/// @type Color
+$grey1: #f8f8f8;
+
+/// @type Color
+$grey2: #dfdfdf;
+
+/// @type Color
+$grey3: #b7b7b7;
+
+/// @type Color
+$grey4: #909090;

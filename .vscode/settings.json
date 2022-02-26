@@ -1,0 +1,8 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.prettier": true,
+    "source.fixAll.stylelint": true
+  },
+  "liveServer.settings.port": 5501,
+  "editor.fontSize": 16
+}

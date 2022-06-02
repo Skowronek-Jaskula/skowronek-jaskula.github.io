@@ -1,5 +1,7 @@
+/* stylelint-disable color-named */
 /* stylelint-disable unit-disallowed-list */
 body {
+  background-color: #c9d5e2;
   font-family: "Source Sans Pro", sans-serif;
   margin: 24px auto;
 }
@@ -18,24 +20,29 @@ div {
   justify-content: center;
 }
 
-p,
-h5 {
-  margin: 0;
+
+
+
+
+
+p {
+  margin: 0 0 24px;
 }
 
- 
- 
+h5 {
+  margin: 24px 0;
+}
 
+button {
+  border: 0;
+  padding: 8px 24px;
+}
 
+.card {
+  background-color: #b3d16d;
+  border: solid 2px white;
+  border-radius: 4px;
+  padding: 24px;
+}
 
-/* body background-color: #c9d5e2; */
-
-/* zielony: #B3D16D; */
-
-/* bordowy: #862843; */
-
-/* wszystkie odległości - wielokrotności 4px */
-
-/* button hover - background opacity 50%; */
-
-/* button hover - background opacity 75%; */
+/* magenta: #862843; */

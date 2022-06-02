@@ -45,4 +45,7 @@ button {
   padding: 24px;
 }
 
-/* bordowy: #862843; */
+.card--onion {
+  background-color: #862843;
+  color: white;
+}

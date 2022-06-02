@@ -26,7 +26,12 @@ div {
 
 
 p {
+  font-weight: 300;
   margin: 0 0 24px;
+}
+
+i {
+  font-weight: 400;
 }
 
 h5 {

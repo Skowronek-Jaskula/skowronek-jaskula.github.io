@@ -1,49 +1,40 @@
-/* stylelint-disable color-named */
-/* stylelint-disable unit-disallowed-list */
+* {
+  box-sizing: border-box;
+}
+
 body {
-  background-color: #F1FAEE;
+  background-color: #f1faee;
   font-family: "Source Sans Pro", sans-serif;
   margin: 0 auto;
 }
 
-* {
-  box-sizing: border-box;
-}
- 
-  
-
-header {
-  background-color:  #2c2c2c;
+.header {
+  background-color: #2c2c2c;
   display: flex;
-  height: 48px; 
+  height: 48px;
 }
-
 .header__container {
   align-items: center;
-  display: flex; 
+  display: flex;
   flex-basis: 100%;
   justify-content: space-between;
   margin: auto;
   max-width: 1000px;
 }
-
 .header__container-nav {
   display: flex;
-  gap: 30px;  
+  gap: 30px;
 }
-
-.header__container-media {
-  display: flex;
-  gap: 10px;  
-}
-
-nav a {
+.header__container-nav a {
   color: white;
 }
-
-nav .active {
+.header__container-nav a.active {
   font-weight: 600;
   text-decoration: none;
+}
+.header__container-media {
+  display: flex;
+  gap: 10px;
 }
 
 .hero {
@@ -56,8 +47,7 @@ nav .active {
   justify-content: center;
   width: 100%;
 }
-
-h1 {
+.hero h1 {
   background-color: white;
   color: #2c2c2c;
   font-size: 80px;
@@ -72,27 +62,4 @@ footer {
   text-align: center;
 }
 
-/* 
-input {
-  display: inline-block;
-  font-weight: 300;
-  height: 40px;
-  margin: 0 0 24px;
-  width: 100px;
-}
-
-
-i {
-  font-weight: 400;
-}
-
-h5 {
-  margin: 24px 0;
-}
-
-button {
-  border: 0;
-  width: 200px;
-}
-
-button:hover {} */
+/*# sourceMappingURL=styles.css.map */

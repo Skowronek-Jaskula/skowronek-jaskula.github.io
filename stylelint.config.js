@@ -7,6 +7,7 @@ module.exports = {
     "stylelint-config-prettier",
   ],
   rules: {
+    "order/properties-alphabetical-order": true,
     "function-no-unknown": [
       true, {
         ignoreFunctions: ["/^map./", "/^math./"]

@@ -1,7 +1,13 @@
-footer {
+.footer {
   background-color: #6a6a6a;
   color: white;
-  height: 250px;
-  padding: 10px 100px;
+  padding: 10px 100px 20px;
   text-align: center;
+
+  &__content {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+
+  }
 }

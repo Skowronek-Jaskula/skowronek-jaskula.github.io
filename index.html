@@ -8,53 +8,39 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@100&family=Source+Sans+Pro:wght@300;400&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@100&family=Source+Sans+Pro:wght@300;400;600&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/css/styles.css" />
   </head>
 
   <body>
-    <section>
-      <div class="card">
-        <img src="./imgs/vegetables1.jpg" width="100%" />
-        <h5>Card title 1</h5>
-        <p>
-          Example text to build on <strong>the card title</strong> and make up
-          <i>the bulk</i> of the card's content.
-        </p>
-        <button onclick="console.log('Hello World 1')">Button</button>
+    <header class="header">
+      <div class="header__container">
+        <nav class="header__container-nav">
+          <a href="#" class="active">HOME</b></a>
+          <a href="#">ABOUT</a>
+          <a href="#">CONTACT</a>
+        </nav>
+        <div class="header__container-media">
+          <img src="./imgs/insta.png" alt="">
+          <img src="./imgs/fb.png" alt="">
+          <img src="./imgs/twitter.png" alt="">
+        </div>
       </div>
+    </header>
+    
+    <div class="hero">
+      <h1>Hello SASS</h1>
+    </div>
 
-      <div class="card">
-        <img src="./imgs/vegetables2.jpg" width="100%" />
-        <h5>Card title 2</h5>
-        <p>
-          Example text to build on <strong>the card title</strong> and make up
-          <i>the bulk</i> of the card's content.
-        </p>
-        <button onclick="console.log('Hello World 2')">Button</button>
-      </div>
+    <footer>
+      <h3>Footer</h3>
+      <p>Esse tempor do sit sint cillum dolore aliquip mollit minim veniam esse eu. Ut mollit Lorem nisi aliqua. Quis irure minim aute duis exercitation consectetur nulla Lorem minim nulla. Velit ex velit sit esse.</p>
 
-      <div class="card card--onion">
-        <img src="./imgs/vegetables3.jpg" width="100%" />
-        <h5>Card title 3</h5>
-        <p>
-          Example text to build on <strong>the card title</strong> and make up
-          <i>the bulk</i> of the card's content.
-        </p>
-        <button onclick="console.log('Hello World 3')">Button</button>
-      </div>
+      <p>Dolore dolor occaecat consectetur et ut reprehenderit mollit velit enim laboris et eu elit culpa. Ad dolore in excepteur excepteur exercitation occaecat minim aute cupidatat proident qui consectetur non dolore. Qui veniam est ut veniam mollit consectetur aliqua Lorem ea Lorem elit esse dolore.</p>
 
-      <div class="card">
-        <img src="./imgs/vegetables4.jpg" width="100%" />
-        <h5>Card title 4</h5>
-        <p>
-          Example text to build on <strong>the card title</strong> and make up
-          <i>the bulk</i> of the card's content.
-        </p>
-        <button onclick="console.log('Hello World 4')">Button</button>
-      </div>
-    </section>
+      <p>In qui sit nostrud qui nulla id ullamco. Lorem mollit qui cupidatat sunt ut consectetur reprehenderit sit id nulla incididunt. Aute proident reprehenderit labore incididunt sunt. Laboris sint minim anim nulla consequat. Ex sit sit ullamco veniam. Consequat labore quis proident mollit exercitation culpa non adipisicing tempor veniam.</p>
+    </footer>
   </body>
 </html>

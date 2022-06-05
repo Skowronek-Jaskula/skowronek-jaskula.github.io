@@ -43,3 +43,5 @@ package-lock.json
 # System Files
 .DS_Store
 Thumbs.db
+css/styles.css
+css/styles.css.map
